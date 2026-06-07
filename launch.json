@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Live Server - Cheska Royals",
+      "type": "chrome",
+      "request": "launch",
+      "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "url": "http://localhost:5500",
+      "webRoot": "${workspaceFolder}",
+      "logConsoleOutput": true,
+      "stopOnEntry": false
+    }
+  ]
+}
