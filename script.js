@@ -88,7 +88,7 @@ window.addEventListener('scroll', function() {
 });
 
 const searchDatabase = [
-    // ===== SERVICES =====
+    //SERVICES 
     {
         id: 1,
         title: 'Interior Design',
@@ -188,7 +188,7 @@ const searchDatabase = [
         link: '#blog'
     },
 
-    // ===== PORTFOLIO PROJECTS =====
+    // PORTFOLIO PROJECTS
     {
         id: 13,
         title: 'Luxury Penthouse',
@@ -239,7 +239,7 @@ const searchDatabase = [
     }
 ];
 
-// STEP 2: Get the HTML elements we need
+//elements we need
 const searchInput = document.getElementById('search-input');
 const searchBtn = document.getElementById('search-btn');
 const searchResults = document.getElementById('search-results');
@@ -248,8 +248,7 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 // Track which filter is selected
 let currentFilter = 'all';
 
-// STEP 3: Function to search
-// This function searches through the database
+// Function to search
 
 function performSearch(query) {
     // Remove extra spaces and make lowercase
@@ -282,7 +281,7 @@ function performSearch(query) {
     displaySearchResults(results, query);
 }
 
-// STEP 4: Function to display results
+//Function to display results
 
 function displaySearchResults(results, query) {
     // Clear old results
@@ -342,7 +341,7 @@ function displaySearchResults(results, query) {
     searchResults.classList.add('active');
 }
 
-// STEP 5: Group results by category
+//Group results by category
 // This organizes results by Service, Blog, Portfolio
 
 function groupResultsByCategory(results) {
@@ -355,14 +354,14 @@ function groupResultsByCategory(results) {
     }, {});
 }
 
-// STEP 6: Highlight matching text
+// Highlight matching text
 
 function highlightQuery(text, query) {
     const regex = new RegExp(`(${query})`, 'gi');
     return text.replace(regex, '<span class="search-highlight">$1</span>');
 }
 
-// STEP 7: Handle clicking on a result
+//Handle clicking on a result
 
 function handleResultClick(link) {
     // Navigate to section
@@ -381,7 +380,7 @@ function handleResultClick(link) {
     }
 }
 
-// STEP 8: Add event listeners (make things interactive)
+//Add event listeners
 
 // When you type in the search box
 searchInput.addEventListener('input', function(e) {
@@ -400,7 +399,7 @@ searchInput.addEventListener('keypress', function(e) {
     }
 });
 
-// STEP 9: Filter button clicks
+//Filter button clicks
 
 filterBtns.forEach(btn => {
     btn.addEventListener('click', function() {
@@ -416,7 +415,7 @@ filterBtns.forEach(btn => {
     });
 });
 
-// STEP 10: Close results when clicking outside
+//Close results when clicking outside
 
 document.addEventListener('click', function(e) {
     if (!e.target.closest('.search-container')) {
@@ -424,7 +423,7 @@ document.addEventListener('click', function(e) {
     }
 });
 
-// STEP 11: Close with Escape key
+//Close with Escape key
 
 searchInput.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
