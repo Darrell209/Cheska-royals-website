@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHESKA ROYALS - Premium Construction & Interior Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha384-..."
+      crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-wrapper">
+    
+            <div class="logo">
+                <i class="fas fa-crown"></i>
+                <span>Cheska Royals</span>
+            </div>
+        
+
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" 
+                           id="search-input" 
+                           placeholder="Search services, blog..." 
+                           class="search-input">
+                    <button class="search-btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+
+                <div class="search-filters" id="search-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="service">Services</button>
+                    <button class="filter-btn" data-filter="blog">Blog</button>
+                    <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+                </div>
+            
+                <div class="search-results" id="search-results">
+                    <div class="search-results-empty">
+                        <p>Start typing to search...</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Space Into Luxury</h1>
+            <p>Premium Construction & Interior Design Solutions</p>
+            <button class="cta-button">Get Your Free Consultation</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1761818645928-47e5dad8ec76?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                 alt="Contemporary luxury living room with a plush sofa and elegant decor in a bright upscale interior space conveying calm sophistication" 
+                 class="hero-image-real">
+        </div>
+    </section>
+
+    <!-- CEO Introduction -->
+    <section class="ceo-intro">
+        <div class="container">
+            <div class="ceo-card">
+                <div class="ceo-avatar">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h3>Mike</h3>
+                <p class="position">Chief Executive Officer</p>
+                <p class="bio">"At Cheska Royals, we believe every space tells a story. Our commitment to excellence and innovation transforms dreams into stunning realities."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+ <section id="services" class="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <p class="section-subtitle">Comprehensive Construction & Design Solutions</p>
+        
+        <!-- Service cards grid with background images -->
+        <div class="services-grid">
+            
+            <!-- Service 1: Interior Design -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?=500&h=500&fit=crop');">
+                <!-- Dark overlay for text readability -->
+                <div class="service-overlay"></div>
+                
+                <!-- Service content on top of image -->
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Interior Design</h3>
+                    <p>Stunning interior designs that blend aesthetics with functionality. We create spaces that reflect your personality and lifestyle.</p>
+                </div>
+            </div>
+
+            <!-- Service 2: Construction -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1581674662583-5e89b374fae6?w=500&h=500&fit=crop');">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Construction</h3>
+                    <p>Expert construction services with precision engineering. From concept to completion, we ensure quality at every stage.</p>
+                </div>
+            </div>
+
+            <!-- Service 3: Kitchen Design -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=500&fit=crop');">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-kitchen"></i>
+                    </div>
+                    <h3>Kitchen Design</h3>
+                    <p>Modern kitchen solutions combining style and practicality. State-of-the-art appliances and custom layouts.</p>
+                </div>
+            </div>
+
+            <!-- Service 4: Bathroom Renovation -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=500&h=500&fit=crop');">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-bathtub"></i>
+                    </div>
+                    <h3>Bathroom Renovation</h3>
+                    <p>Luxurious bathroom spaces with premium fixtures. Spa-like experiences in your own home.</p>
+                </div>
+            </div>
+
+            <!-- Service 5: Space Planning -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500&h=500&fit=crop');">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-sofa"></i>
+                    </div>
+                    <h3>Space Planning</h3>
+                    <p>Efficient space utilization and layout optimization. Maximizing comfort and visual appeal in every room.</p>
+                </div>
+            </div>
+
+            <!-- Service 6: Lighting Solutions -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1718221621618-e477ce33485a?w=500&h=500&fit=crop');">
+                <div class="service-overlay"></div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Lighting Solutions</h3>
+                    <p>Professional lighting design that transforms ambiance. Energy-efficient and aesthetically perfect lighting.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2>Our Portfolio</h2>
+        <p class="section-subtitle">Showcase of Our Finest Projects</p>
+        
+        <!-- Project showcase grid - 6 featured projects -->
+        <div class="portfolio-grid">
+            
+            <!-- Project 1: Luxury Penthouse -->
+            <div class="portfolio-item">
+
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500&h=500&fit=crop" 
+                     alt="Luxury Penthouse with modern design and panoramic views" 
+                     class="portfolio-image-real">
+                <h3>Luxury Penthouse</h3>
+                <p>Modern luxury apartment with panoramic views and premium finishes.</p>
+            </div>
+
+            <!-- Project 2: Contemporary Villa -->
+            <div class="portfolio-item">
+
+                <img src="https://images.pexels.com/photos/9757618/pexels-photo-9757618.png?w=500&h=500&fit=crop" 
+                     alt="Contemporary villa with glass facades and open indoor outdoor living spaces in a calm luxury setting" 
+                     class="portfolio-image-real">
+                <h3>Contemporary Villa</h3>
+                <p>Stunning villa with integrated indoor-outdoor living spaces.</p>
+            </div>
+
+            <!-- Project 3: Corporate Office -->
+            <div class="portfolio-item">
+
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=500&h=500&fit=crop" 
+                     alt="Modern corporate office with collaborative workspaces" 
+                     class="portfolio-image-real">
+                <h3>Corporate Office</h3>
+                <p>Modern office space designed for productivity and collaboration.</p>
+            </div>
+
+            <!-- Project 4: Boutique Hotel -->
+            <div class="portfolio-item
+
+                 <img src="https://images.pexels.com/photos/34964854/pexels-photo-34964854.jpeg?w=500&h=500&fit=crop" 
+                     alt="Tufted blue velvet sofa against a marble accent wall with lit shelving and decorative items, conveying a calm luxurious lounge setting" 
+                     class="portfolio-image-real">
+                <h3>Boutique Hotel</h3>
+                <p>Luxurious hotel interiors with unique design elements.</p>
+            </div>
+
+            <!-- Project 5: Residential Complex -->
+            <div class="portfolio-item">
+        
+                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=500&h=500&fit=crop" 
+                     alt="Residential complex with modern architecture" 
+                     class="portfolio-image-real">
+                <h3>Residential Complex</h3>
+                <p>Multi-unit residential development with premium amenities.</p>
+            </div>
+
+            <!-- Project 6: Retail Store -->
+            <div class="portfolio-item">
+
+                <img src="https://images.unsplash.com/photo-1567521464027-f127ff144326?w=500&h=500&fit=crop" 
+                     alt="Modern retail store with elegant design" 
+                     class="portfolio-image-real">
+                <h3>Retail Store</h3>
+                <p>Elegant retail space designed to enhance customer experience.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2>Why Choose Cheska Royals?</h2>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-number">01</div>
+                    <h3>Expert Team</h3>
+                    <p>Highly trained architects, designers, and construction professionals with decades of combined experience.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-number">02</div>
+                    <h3>Quality Materials</h3>
+                    <p>We use only premium materials sourced from trusted suppliers worldwide.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-number">03</div>
+                    <h3>On-Time Delivery</h3>
+                    <p>Projects completed on schedule without compromising on quality or vision.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-number">04</div>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored designs that match your unique style, budget, and requirements.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-number">05</div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated customer support throughout your project and beyond.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-number">06</div>
+                    <h3>Warranty</h3>
+                    <p>Comprehensive warranty on all materials and workmanship for your peace of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stat-item">
+                <h3>200+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+                <h3>25+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>50+</h3>
+                <p>Team Members</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+    <div class="container">
+        <h2>About Cheska Royals</h2>
+        <p class="section-subtitle">Transforming Spaces, Creating Legacies</p>
+        
+        <div class="about-content">
+            <!-- Left side: Text content -->
+            <div class="about-text">
+                <p>Cheska Royals is a leading construction and interior design firm dedicated to creating extraordinary spaces that inspire and delight. With over 10 years of experience, we've earned a reputation for excellence, innovation, and unwavering commitment to customer satisfaction.</p>
+                
+                <p>Under the visionary leadership of CEO Mike, our team of architects, designers, and construction experts work collaboratively to bring your dreams to life. We believe that every project is an opportunity to create something truly special.</p>
+                
+                <p>Our approach combines cutting-edge design trends with timeless elegance, ensuring that every space we create stands the test of time while remaining distinctly modern and functional.</p>
+
+                <!-- Key features/-->
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Award-Winning Designs</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Sustainable Practices</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Innovation & Technology</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right side: Image -->
+            <div class="about-image">
+        
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=600&fit=crop" 
+                     alt="Cheska Royals - Modern office and team workspace" 
+                     class="about-image-real">
+                
+                <!-- Decorative elements -->
+                <div class="about-image-decoration"></div>
+            </div>
+        </div>
+    </div>
+    <!--BLOG SECTION -->
+<section id="blog" class="blog">
+    <div class="container">
+        <!-- Section header -->
+        <h2>Design Insights & Tips</h2>
+        <p class="section-subtitle">Latest Trends, Tips & Project Updates</p>
+
+        <!-- Blog grid - 3 columns -->
+        <div class="blog-grid">
+            
+            <!--BLOG POST 1-->
+            <article class="blog-card">
+                <!-- Featured image -->
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1564078516393-cf04bd966897?w=600&h=400&fit=crop" 
+                         alt="Modern interior design tips">
+                </div>
+
+                <!-- Blog content -->
+                <div class="blog-content">
+                    <!-- Date and Author -->
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            June 5, 2026
+                        </span>
+                        <span class="blog-author">
+                            <i class="fas fa-user"></i>
+                            Mike, CEO
+                        </span>
+                    </div>
+
+                    <!-- Title -->
+                    <h3 class="blog-title">5 Interior Design Trends for 2026</h3>
+
+                    <!-- Excerpt/Preview -->
+                    <p class="blog-excerpt">Discover the hottest interior design trends that are transforming homes this year. From sustainable materials to bold colors, learn how to modernize your space with these expert-approved tips.</p>
+
+                    <!-- Tags -->
+                    <div class="blog-tags">
+                        <span class="tag">trends</span>
+                        <span class="tag">design</span>
+                        <span class="tag">modern</span>
+                    </div>
+
+                    <!-- Read more button -->
+                    <a href="blog-post-1.html" class="read-more-btn">
+                        Read Full Article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!--BLOG POST 2-->
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop" 
+                         alt="Kitchen design ideas">
+                </div>
+
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            June 1, 2026
+                        </span>
+                        <span class="blog-author">
+                            <i class="fas fa-user"></i>
+                            Design Team
+                        </span>
+                    </div>
+
+                    <h3 class="blog-title">Transform Your Kitchen on Any Budget</h3>
+
+                    <p class="blog-excerpt">A beautiful kitchen doesn't have to break the bank. Learn practical strategies to renovate your kitchen affordably without compromising on style and functionality.</p>
+
+                    <div class="blog-tags">
+                        <span class="tag">kitchen</span>
+                        <span class="tag">budget-friendly</span>
+                        <span class="tag">diy-tips</span>
+                    </div>
+
+                    <a href="blog-post-2.html" class="read-more-btn">
+                        Read Full Article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- BLOG POST 3 -->
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop" 
+                         alt="Bathroom renovation guide">
+                </div>
+
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            May 28, 2026
+                        </span>
+                        <span class="blog-author">
+                            <i class="fas fa-user"></i>
+                            Sarah, Designer
+                        </span>
+                    </div>
+
+                    <h3 class="blog-title">Creating Your Spa-Like Bathroom Oasis</h3>
+
+                    <p class="blog-excerpt">Turn your bathroom into a luxurious retreat. Explore spa-inspired design elements, water-resistant materials, and lighting techniques that create the perfect relaxation space.</p>
+
+                    <div class="blog-tags">
+                        <span class="tag">bathroom</span>
+                        <span class="tag">luxury</span>
+                        <span class="tag">wellness</span>
+                    </div>
+
+                    <a href="blog-post-3.html" class="read-more-btn">
+                        Read Full Article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!--BLOG POST 4-->
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600&h=400&fit=crop" 
+                         alt="Space planning tips">
+                </div>
+
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            May 25, 2026
+                        </span>
+                        <span class="blog-author">
+                            <i class="fas fa-user"></i>
+                            Design Team
+                        </span>
+                    </div>
+
+                    <h3 class="blog-title">Maximizing Small Spaces: Smart Solutions</h3>
+
+                    <p class="blog-excerpt">Make the most of your small apartment or room with clever space planning techniques. Discover furniture arrangements, storage solutions, and design tricks that make spaces feel larger.</p>
+
+                    <div class="blog-tags">
+                        <span class="tag">small-spaces</span>
+                        <span class="tag">organization</span>
+                        <span class="tag">efficiency</span>
+                    </div>
+
+                    <a href="blog-post-4.html" class="read-more-btn">
+                        Read Full Article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!--BLOG POST 5-->
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1680007889201-114ac772447d?w=600&h=400&fit=crop" 
+                         alt="Lighting design ideas">
+
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            May 20, 2026
+                        </span>
+                        <span class="blog-author">
+                            <i class="fas fa-user"></i>
+                            Mike, CEO
+                        </span>
+                    </div>
+
+                    <h3 class="blog-title">The Art of Perfect Lighting Design</h3>
+
+                    <p class="blog-excerpt">Proper lighting can transform any space. Learn how to combine ambient, task, and accent lighting to create the perfect ambiance for any room in your home.</p>
+
+                    <div class="blog-tags">
+                        <span class="tag">lighting</span>
+                        <span class="tag">ambiance</span>
+                        <span class="tag">energy-efficient</span>
+                    </div>
+
+                    <a href="blog-post-5.html" class="read-more-btn">
+                        Read Full Article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!--BLOG POST 6-->
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" 
+                         alt="Sustainable design">
+                </div>
+
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            May 15, 2026
+                        </span>
+                        <span class="blog-author">
+                            <i class="fas fa-user"></i>
+                            Design Team
+                        </span>
+                    </div>
+
+                    <h3 class="blog-title">Eco-Friendly Interior Design Choices</h3>
+
+                    <p class="blog-excerpt">Build a beautiful home while protecting the environment. Explore sustainable materials, energy-efficient solutions, and eco-conscious design practices that benefit both your home and the planet.</p>
+
+                    <div class="blog-tags">
+                        <span class="tag">sustainable</span>
+                        <span class="tag">eco-friendly</span>
+                        <span class="tag">green</span>
+                    </div>
+
+                    <a href="blog-post-6.html" class="read-more-btn">
+                        Read Full Article
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <p class="section-subtitle">What Our Satisfied Clients Say</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Cheska Royals transformed our home into something we only dreamed about. The attention to detail and professionalism was outstanding!"</p>
+                    <p class="client-name">- Johnson Obiri</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Working with Mike and his team was a pleasure. They delivered exactly what we wanted, on time and within budget."</p>
+                    <p class="client-name">- Robert Ochien'g</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The design expertise and construction quality is exceptional. Cheska Royals is the best in the business!"</p>
+                    <p class="client-name">- Beatrice Wanjiku</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">Let's Create Something Amazing Together</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Eldoret, Kenya</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 123 456 789</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>cheskaroyals@org.ac.ke</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone">
+                    <input type="text" placeholder="Project Type">
+                    <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Cheska Royals</h4>
+                    <p>Transforming spaces into extraordinary experiences through innovative design and exceptional craftsmanship.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Interior Design</a></li>
+                        <li><a href="#services">Construction</a></li>
+                        <li><a href="#services">Kitchen Design</a></li>
+                        <li><a href="#services">Renovations</a></li>
+                    </ul>
+                </div>
+
+                <!-- MAILCHIMP SUBSCRIPTION FORM -->
+<div id="mc_embed_shell">
+    <style>
+        #mc_embed_shell { margin-top: 1rem; }
+        #mc_embed_shell .mc-field-group { margin-bottom: 1rem; }
+        #mc_embed_shell label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+        #mc_embed_shell input[type="email"],
+        #mc_embed_shell input[type="text"],
+        #mc_embed_shell input[type="tel"],
+        #mc_embed_shell textarea { width: 100%; padding: 0.75rem; margin-bottom: 0.75rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        #mc_embed_shell .button { width: 100%; padding: 0.75rem; border: none; border-radius: 4px; background: #333; color: #fff; cursor: pointer; }
+        #mc_embed_shell .response { display: none; margin-top: 0.5rem; }
+    </style>
+    <form action="https://cheskaroyals.us21.list-manage.com/subscribe/post?u=YOUR_USER_ID&amp;id=YOUR_LIST_ID" 
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address</label>
+                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required value="">
+            </div>
+            <div id="mce-responses" class="response">
+                <div class="response" id="mce-error-response" style="display: none;"></div>
+                <div class="response" id="mce-success-response" style="display: none;"></div>
+            </div>
+            <div style="position: absolute; left: -5000px;">
+                <input type="checkbox" name="b_YOUR_USER_ID_YOUR_LIST_ID" id="b_checkbox" value="1" checked>
+            </div>
+            <div class="clear">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+            </div>
+        </div>
+    </form>
+    
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cheska Royals. All rights reserved. | CEO: Mike</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
