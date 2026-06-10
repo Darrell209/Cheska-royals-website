@@ -137,7 +137,7 @@ body {
     box-shadow: 0 6px 25px rgba(212, 175, 55, 0.4);
 }
 
-/* Hero image styling - NEW CODE */
+/* Hero image styling -*/
 .hero-image {
     width: 100%;
     height: 500px;
@@ -367,9 +367,7 @@ body {
     color: white;
 }
 
-/* ============================================
-   RESPONSIVE DESIGN - Tablets
-   ============================================ */
+/* RESPONSIVE DESIGN - Tablets */
 
 @media (max-width: 768px) {
     .services-grid {
@@ -385,9 +383,7 @@ body {
     }
 }
 
-/* ============================================
-   RESPONSIVE DESIGN - Mobile
-   ============================================ */
+/* RESPONSIVE DESIGN - Mobile */
 
 @media (max-width: 480px) {
     .services h2 {
@@ -781,9 +777,7 @@ body {
     color: white;
 }
 
-/* ============================================
-   RESPONSIVE BLOG POST
-   ============================================ */
+/* RESPONSIVE BLOG POST */
 
 @media (max-width: 768px) {
     .post-title {
@@ -889,9 +883,7 @@ body {
     font-size: 1.5rem;
 }
 
-/* ============================================
-   ABOUT IMAGE STYLING - NEW CODE
-   ============================================ */
+/*ABOUT IMAGE STYLING - NEW CODE*/
 
 .about-image {
     position: relative;
@@ -919,9 +911,7 @@ body {
     display: none;  /* Hide decoration */
 }
 
-/* ============================================
-   RESPONSIVE DESIGN - Tablets
-   ============================================ */
+/*    RESPONSIVE DESIGN - Tablets*/
 
 @media (max-width: 768px) {
     /* Stack about section vertically on tablets */
@@ -943,9 +933,7 @@ body {
     }
 }
 
-/* ============================================
-   RESPONSIVE DESIGN - Mobile
-   ============================================ */
+/* RESPONSIVE DESIGN - Mobile */
 
 @media (max-width: 480px) {
     .about {
@@ -1214,9 +1202,7 @@ body {
         grid-template-columns: 1fr;
     }
 }
-/* ============================================
-   SEARCH BAR & FILTERS - STYLING
-   ============================================ */
+/* SEARCH BAR & FILTERS - STYLING */
 
 /* Search container - holds search bar and filters */
 .search-container {
@@ -1276,9 +1262,7 @@ body {
     transform: scale(1.1);  /* Gets bigger */
 }
 
-/* ============================================
-   FILTER BUTTONS STYLING
-   ============================================ */
+/* FILTER BUTTONS STYLING */
 
 .search-filters {
     display: flex;
@@ -1317,9 +1301,7 @@ body {
     font-weight: 600;
 }
 
-/* ============================================
-   SEARCH RESULTS DROPDOWN
-   ============================================ */
+/* SEARCH RESULTS DROPDOWN */
 
 .search-results {
     position: absolute;  /* Appears below search bar */
@@ -1348,9 +1330,7 @@ body {
     color: #999;
 }
 
-/* ============================================
-   INDIVIDUAL SEARCH RESULT ITEMS
-   ============================================ */
+/*INDIVIDUAL SEARCH RESULT ITEMS*/
 
 .search-result-item {
     padding: 1rem;
@@ -1419,9 +1399,7 @@ body {
     font-weight: bold;
 }
 
-/* ============================================
-   RESPONSIVE SEARCH BAR
-   ============================================ */
+/*RESPONSIVE SEARCH BAR*/
 
 @media (max-width: 768px) {
     .search-container {
